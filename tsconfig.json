@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "module": "ESNext",
+    "target": "es6",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "allowJs": false,
+    "strictNullChecks": true,
+    "strict": true,
+    "strictPropertyInitialization": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "isolatedModules": false,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noUncheckedIndexedAccess": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./common/types/custom"
+    ]
+  },
+  "ts-node": {
+    "files": true,
+    // ultra fast compiler, but no type-checks
+//    "swc": true
+  },
+  "exclude": [
+    "node_modules",
+  ],
+}
