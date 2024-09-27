@@ -8,7 +8,7 @@ import {DealioTradeTransformer} from "../../transformers/dealio/DealioTradeTrans
 const sources = {
     backend: {
         type: SourceType.BACKEND_DB,
-        connectionString: 'postgresql://localhost:27017',
+        connectionString: 'postgresql://localhost:27018',
     },
     real01: {
         type: SourceType.REPORTING_MT4_DB,
